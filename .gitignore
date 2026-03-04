@@ -1,0 +1,15 @@
+# Arquivos locais com segredos
+.env
+.env.*
+!.env.example
+!.env.k8s.example
+secrets/
+
+# Chaves/certificados
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Artefatos comuns
+*.log
